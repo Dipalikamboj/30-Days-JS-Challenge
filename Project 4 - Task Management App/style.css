@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+#app {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #d94f70; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #d94f70; 
+    border-radius: 4px;
+}
+
+button {
+    background-color: #d94f70; 
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0395e;
+}
+
+#task-list {
+    margin-top: 20px;
+}
+
+.task {
+    padding: 10px;
+    border: 1px solid #d94f70; 
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd1dc; 
+}
+
+.task-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.task-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-buttons button.edit {
+    background-color: #ff8b94; 
+    color: white;
+}
+
+.task-buttons button.delete {
+    background-color: #ff5c7a; 
+    color: white;
+}
+
+.task-buttons button:hover {
+    opacity: 0.8;
+}
