@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce Website</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Apni Dukan</div>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#cart">Cart</a>
+            <a href="#checkout-form">Checkout</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <section id="products">
+            <h2>Products Listing</h2>
+            <div id="product-list" class="product-grid">
+                
+            </div>
+
+        </section>
+
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <div id="cart-list">
+                
+            </div>
+            <h3>Total: &#8377<span id="cart-total">0.00</span></h3>
+    </section>
+
+    <form id="checkout-form">
+        <h2>Checkout</h2>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="text" id="payment" placeholder="Payment Details" required> 
+        <button type="submit">Place Order</button>
+    </form>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
